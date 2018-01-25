@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Psychic Game</title>
-
-  <link rel="stylesheet" href="assets/css/reset.css">
- 
-  </head>
-  <body>
- 	<div id="game">
- 		<h1>The Psychic Game</h1>
-  			<p>Guess what letter I'm thinking of</p>
-        <div id="stats"></div>
-  	</div>
-     <script src="assets/javascript/game.js"></script> 
- <!--  <script type ="text/javascript">
   	
   			// get comparisons working
 
@@ -88,8 +71,3 @@
             // Reset the game (call function from above)
           // If false:
             // Nothing happens
-
-    }
-  </script>
- -->  </body>
-</html>
