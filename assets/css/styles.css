@@ -1,0 +1,10 @@
+body {
+    background-image: url(../images/backgroundImg.jpg);
+    /*Photo by Arnesh Yadram from Pexels*/
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 80%;
+    margin: 0 auto; 
+    color: white;
+}
