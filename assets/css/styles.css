@@ -13,8 +13,10 @@ body {
 h1 {
     font-size: 30px;
     margin-top: 136px;
+    margin-bottom: 5px;
 }
 
 p {
     font-size: 26px;
+    margin-bottom: 5px;
 }
