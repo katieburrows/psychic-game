@@ -28,7 +28,7 @@ resetGame();
 	  		console.log("User guess: " + userGuess);
 
 	  		if (userGuess === computerGuess) {
-	  			alert("You win!");
+	  			alert("You win! The computer's guess: " + computerGuess + ". You guessed: " + userGuess + ".");
 	  			wins++;
 	  			resetGame();
 	  		} else {
@@ -36,7 +36,7 @@ resetGame();
 	  			wrongGuesses.push(userGuess);
 	  			updateHTML();
 	  			if (guessesLeft === 0) {
-	  				alert("Good try but your guess was incorrect.");
+	  				alert("Good try but your guess was incorrect. The computer guessed: " + computerGuess + ".");
 	  				losses++;
 	  				resetGame();
 	  			}
